@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header with Dropdown</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#home">
+          <img src="assets/img/Logo.png" alt="My Website Logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="dropdown">
+            <a href="#services" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+              <a href="#design">Web Projects</a>
+              <a href="#development">Design Projects</a>
+              <a href="#marketing">Video Projects</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello 👋🏻, I'm</h3>
+        <h1>Wibowo <span class="name">Assariy</span></h1>
+        <h2>Web Developer & UI/UX Designer</h2>
+      </div>
+    </section>
+
+    <section class="sec-content">
+      <h1>I Spesialize at</h1>
+      <div class="sec-content-container">
+        <div class="sec-content-design">
+          <box-icon
+            type="solid"
+            name="pen"
+            color="#4888ff"
+            animation="tada"
+            class="icons"
+          ></box-icon>
+          <h1>Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+            soluta a fugiat delectus numquam eius, nisi rem dignissimos
+            accusantium corrupti nihil at quasi est voluptate quos aliquam
+            recusandae quae sapiente sed cumque?
+          </p>
+        </div>
+        <div class="sec-content-web">
+          <box-icon
+            type="solid"
+            name="pen"
+            color="#4888ff"
+            animation="tada"
+            class="icons"
+          ></box-icon>
+          <h1>Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            amet laborum non vero placeat. Nam aspernatur minus blanditiis
+            laboriosam aliquid quam aliquam doloribus molestias laborum non
+            veritatis eligendi, perferendis provident sed vitae?
+          </p>
+        </div>
+        <div class="sec-content-android">
+          <box-icon
+            type="solid"
+            name="pen"
+            color="#4888ff"
+            animation="tada"
+            class="icons"
+          ></box-icon>
+          <h1>Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            incidunt soluta unde, ea odio qui dignissimos, tempore cum in sunt
+            harum recusandae ad ipsa similique facilis possimus eveniet quam
+            cupiditate animi voluptatibus.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

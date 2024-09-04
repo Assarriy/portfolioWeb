@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+header {
+  margin: 10px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+  margin-left: 30px;
+}
+
+nav {
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links li a {
+  color: #323232;
+  text-decoration: none;
+  padding: 10px 45px;
+  display: flex;
+  font-weight: 300;
+}
+
+.nav-links li a:hover {
+  color: #4888ff;
+}
+
+.nav-links .active a {
+  font-weight: 500;
+  color: #4888ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.home {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  padding: 0 10%;
+  background: url("assets/img/home.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-content {
+  display: block;
+  align-content: start;
+  color: #323232;
+}
+
+.home-content h3 {
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+}
+
+.home-content h1 {
+  font-size: 60px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.home-content .name {
+  color: #4888ff;
+}
+
+.home-content h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sec-content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-content {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #323232;
+  border-radius: 10px;
+  margin: 5%;
+  text-align: center;
+  display: block;
+}
+
+.sec-content-design {
+  margin: 50px;
+  padding: 3%;
+  border-radius: 10px;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  color: #4888ff;
+}
+
+.sec-content-design p{
+  font-weight: 100;
+  font-size: 16px;
+  color: #323232;
+}
+
+.sec-content-web {
+  margin: 50px;
+  padding: 3%;
+  border-radius: 10px;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  color: #4888ff;
+}
+
+.sec-content-web p{
+  font-weight: 100;
+  font-size: 16px;
+  color: #323232;
+}
+
+.sec-content-android {
+  margin: 50px;
+  padding: 3%;
+  border-radius: 10px;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  color: #4888ff;
+}
+
+.sec-content-android p{
+  font-weight: 100;
+  font-size: 16px;
+  color: #323232;
+}
