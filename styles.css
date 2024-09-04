@@ -28,13 +28,14 @@ nav {
 }
 
 .nav-links li {
+  align-items: center;
   position: relative;
 }
 
 .nav-links li a {
   color: #323232;
   text-decoration: none;
-  padding: 10px 45px;
+  padding: 10px 30px;
   display: flex;
   font-weight: 300;
 }
@@ -46,6 +47,23 @@ nav {
 .nav-links .active a {
   font-weight: 500;
   color: #4888ff;
+}
+
+.nav-links .contact a{
+  color: white;
+  padding: 0;
+}
+
+.nav-links .contact{
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: #4888ff;
+}
+
+.nav-links .contact a:hover{
+  color: #323232;
 }
 
 .dropdown:hover .dropdown-content {
@@ -63,6 +81,7 @@ nav {
 }
 
 .dropdown-content a {
+  padding: 12px 16px;
   color: white;
   text-decoration: none;
   display: block;
@@ -126,6 +145,14 @@ nav {
   display: block;
 }
 
+.sec-content-title{
+  font-size: 30px;
+}
+
+.sec-content .specialize{
+  color: #4888ff;
+}
+
 .sec-content-design {
   margin: 50px;
   padding: 3%;
@@ -138,7 +165,7 @@ nav {
 
 .sec-content-design p{
   font-weight: 100;
-  font-size: 16px;
+  font-size: 13px;
   color: #323232;
 }
 
@@ -154,7 +181,7 @@ nav {
 
 .sec-content-web p{
   font-weight: 100;
-  font-size: 16px;
+  font-size: 13px;
   color: #323232;
 }
 
@@ -170,6 +197,6 @@ nav {
 
 .sec-content-android p{
   font-weight: 100;
-  font-size: 16px;
+  font-size: 13px;
   color: #323232;
 }
