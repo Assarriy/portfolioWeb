@@ -4,11 +4,15 @@ body {
 }
 
 header {
-  margin: 10px;
-  padding: 20px 0;
+  z-index: 3;
+  box-shadow: 2px -9px 43px 1px rgba(0, 0, 0, 0.51);
+  position: fixed;
+  padding: 20px;
   display: flex;
+  width: 98%;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 .logo img {
@@ -49,12 +53,12 @@ nav {
   color: #4888ff;
 }
 
-.nav-links .contact a{
+.nav-links .contact a {
   color: white;
   padding: 0;
 }
 
-.nav-links .contact{
+.nav-links .contact {
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -62,7 +66,7 @@ nav {
   background-color: #4888ff;
 }
 
-.nav-links .contact a:hover{
+.nav-links .contact a:hover {
   color: #323232;
 }
 
@@ -97,7 +101,7 @@ nav {
 
 .home {
   display: flex;
-  height: 80vh;
+  height: 100vh;
   align-items: center;
   padding: 0 10%;
   background: url("assets/img/home.png") no-repeat;
@@ -147,11 +151,11 @@ nav {
   display: block;
 }
 
-.sec-content-title{
+.sec-content-title {
   font-size: 30px;
 }
 
-.sec-content .specialize{
+.sec-content .specialize {
   color: #4888ff;
 }
 
@@ -165,7 +169,7 @@ nav {
   color: #4888ff;
 }
 
-.sec-content-design p{
+.sec-content-design p {
   font-weight: 100;
   font-size: 13px;
   color: #323232;
@@ -181,7 +185,7 @@ nav {
   color: #4888ff;
 }
 
-.sec-content-web p{
+.sec-content-web p {
   font-weight: 100;
   font-size: 13px;
   color: #323232;
@@ -197,7 +201,7 @@ nav {
   color: #4888ff;
 }
 
-.sec-content-android p{
+.sec-content-android p {
   font-weight: 100;
   font-size: 13px;
   color: #323232;
@@ -206,9 +210,9 @@ nav {
 /* Landing Page End */
 
 /* About Page Start */
-.about {
-  padding-top: 25px;
-  padding-bottom: 25px;
+#about {
+  padding-top: 120px;
+  padding-bottom: 120px;
   color: #323232;
   border-radius: 10px;
   margin: 5%;
@@ -216,23 +220,23 @@ nav {
   display: flex;
 }
 
-.about img{
+#about img {
   height: 400px;
 }
 
-.about-content{
+.about-content {
   margin-left: 100px;
   margin-right: 100px;
   text-align: start;
 }
 
-.about-content h1{
+.about-content h1 {
   margin: 0;
   color: #4888ff;
   font-size: 40px;
 }
 
-.about-content p{
+.about-content p {
   color: #323232;
   margin-top: 30px;
   font-size: 16px;
@@ -241,10 +245,86 @@ nav {
   margin-bottom: 50px;
 }
 
-.portfolio-btn{
+.portfolio-btn {
   text-decoration: none;
   color: white;
   padding: 15px;
   background-color: #4888ff;
   border-radius: 10px;
+}
+
+/* About Page End */
+
+/* My Projects Section Start */
+
+#projects{
+  padding-top: 50px;
+  display: block;
+  margin-left: 100px;
+}
+
+.projects-h1{
+  color: #323232;
+  font-size: 40px;
+}
+
+.projects-h1 .p-title{
+  color: #4888ff;  
+}
+
+.projects-container{
+  margin-right: 50px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.web-container{
+  display: block;
+  text-align: center;
+  margin: 20px;
+  padding: 3%;
+  border-radius: 10px;
+  width: 20%;
+  background-color: #4888ff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  color: white; 
+}
+
+.web-container h1{
+  font-size: 30px;
+}
+
+.design-container{
+  display: block;
+  text-align: center;
+  margin: 20px;
+  padding: 3%;
+  border-radius: 10px;
+  width: 20%;
+  background-color: #4888ff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  color: white; 
+}
+
+.design-container h1{
+  font-size: 30px;
+}
+
+.android-container{
+  align-content: center;
+  align-items: center;
+  display: block;
+  text-align: center;
+  margin: 20px;
+  padding: 3%;
+  border-radius: 10px;
+  width: 20%;
+  background-color: #4888ff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  color: white; 
+}
+
+.android-container h1{
+  font-size: 30px;
 }
