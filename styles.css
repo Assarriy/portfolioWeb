@@ -93,6 +93,8 @@ nav {
   background-color: white;
 }
 
+/* Landing Page Start */
+
 .home {
   display: flex;
   height: 80vh;
@@ -199,4 +201,50 @@ nav {
   font-weight: 100;
   font-size: 13px;
   color: #323232;
+}
+
+/* Landing Page End */
+
+/* About Page Start */
+.about {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #323232;
+  border-radius: 10px;
+  margin: 5%;
+  text-align: center;
+  display: flex;
+}
+
+.about img{
+  height: 400px;
+}
+
+.about-content{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: start;
+}
+
+.about-content h1{
+  margin: 0;
+  color: #4888ff;
+  font-size: 40px;
+}
+
+.about-content p{
+  color: #323232;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.portfolio-btn{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: #4888ff;
+  border-radius: 10px;
 }
